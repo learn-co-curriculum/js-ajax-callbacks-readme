@@ -8,3 +8,4 @@ $(document).ready(function(){
     $("#sentences").html(response);
   });
 });
+//Correctly loaded using AJAX
