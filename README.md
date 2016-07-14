@@ -72,7 +72,7 @@ Let's try an example. You have an `index.html` file with a basic structure. Let'
   <p id="sentences">
     Loading our page...
   </p>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 ```
