@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Using `XMLHttpReqest` directly is a handy way to access remote data, or web APIs, but it requires us to do a lot of lower-level wiring to get everything working. Now we're going to take a look at the Ajax capabilities of jQuery, which abstracts the XHR code into a nice, higher-level package.
+In JavaScript, we can use `XMLHttpReqest` directly to access remote data, or web APIs, but it requires us to do a lot of lower-level wiring to get everything working. Now we're going to take a look at the Ajax capabilities of jQuery, which abstracts the XHR code into a nice, higher-level package.
 
 ## Postman and the GitHub API (done)
 
@@ -72,7 +72,7 @@ Let's try an example. You have an `index.html` file with a basic structure. Let'
   <p id="sentences">
     Loading our page...
   </p>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 ```
