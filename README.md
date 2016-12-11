@@ -104,10 +104,10 @@ Let's load up `index.html` and see what happens!
 Okay. Not a whole lot.
 
 We actually need to serve this page from an HTTP server rather than load
-it directly in our browser. At the console, run the following command:
+it directly in our browser. In your terminal, run the following command:
 
 ```bash
-$ python -m SimpleHTTPServer
+// ♥ python -m SimpleHTTPServer
 ```
 
 This starts a simple server that will serve our files over HTTP. You need to start a server instead of just opening up `index.html` in the browser because of the browser enforced same-origin policy. To prevent security risks, the browser enforces a same origin policy. A different origin can be interpreted as a different domain, different protocol, and a different port.
@@ -184,3 +184,5 @@ Note: The callback that gets passed into `.done`  gets `data` as an argument. `d
 * [jQuery.get()](http://api.jquery.com/jquery.get/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-ajax-callbacks-readme'>AJAX and Callbacks</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-ajax-callbacks-readme'>AJAX and Callbacks</a> on Learn.co and start learning to code for free.</p>
